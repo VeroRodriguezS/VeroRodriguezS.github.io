@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Oswald:wght@200&family=Playfair+Display:ital@1&display=swap");
 
-/* Estilos para el encabezado */
 header a {
   text-decoration: none;
   color: chartreuse;
@@ -24,18 +23,12 @@ header ul {
   margin: 0;
   padding: 0;
 }
-@media (max-width: 768px) {
-  header {
-    flex-direction: column;
-    align-items: flex-start; 
-    padding: 10px; 
-}  
 
 header ul li {
   margin: 0 10px;
 }
 
-/* Estilos para el contenido principal */
+
 main {
   background-color: #ff5aa4;
   color: chartreuse;
@@ -78,7 +71,6 @@ h2 {
   margin: 20px 0; 
 }
 
-/* Estilos para las cajas de contenido */
 .contenedor {
   display: flex;
   flex-direction: row;
@@ -110,7 +102,6 @@ h2 {
   font-size: small;
 }
 
-/* Estilos para el video */
 .video {
   display: flex;
   justify-content: center;
@@ -118,7 +109,6 @@ h2 {
   margin: 20px 0; 
 }
 
-/* Estilos para el pie de página */
 footer {
   background-color: #ff5aa4;
   color: #4e09ee;
@@ -126,7 +116,6 @@ footer {
   padding: 10px 0;
   text-align: center;
 } 
-/* Estilos para los botones */
 .button-container button {
   background-color: transparent;
   border: none;
