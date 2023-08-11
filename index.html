@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paginatemalibre</title>
+  <!--comentarios-->
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script defer src="main.js"></script>
+</head>
+
+<body>
+
+  <body style="background-color: #ffc0dc;">
+
+    <header>
+      <img id="logo" alt="logo" src="imagen/logomujer.png">
+      <nav>
+        <ul>
+          <li><a href="ayuda.html">Numeros de ayuda</a></li>
+          <li><a href="meta.html">Meta</a></li>
+
+          <li><a href="#empoderamiento">Empoderamiento</a></li>
+        </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main> “Lo más difícil es la decisión de actuar, el resto es meramente tenacidad.” - Amelia EarhartS</main>
+    <p id="texto1">
+      Bienvenida a empodérate mujer, espero aquí puedas encontrar algunos recursos que te inspiren y motiven a construir
+      tu mejor versión.
+    </p>
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="imagen/mujeres.jpg" class="d-block w-100" alt="mujeres">
+        </div>
+        <div class="carousel-item">
+          <img src="imagen/madam.jpg" class="d-block w-100" alt="madam walker">
+        </div>
+        <div class="carousel-item">
+          <img src="imagen/marie.jpg" class="d-block w-100" alt="marie curie">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+
+
+
+    <div class="row">
+      <div class="col-md-6">
+        <div class="container-fluid bg-pink-100">
+          <h3>Salud mental</h3>
+          <p>Cuidar de nuestra salud mental es muy importante por varias razones. En primer lugar, tener una buena salud
+            mental nos permite disfrutar de la vida y enfrentar los desafíos de manera más efectiva. Cuando estamos en
+            un buen estado mental, somos más capaces de manejar el estrés, las relaciones y las decisiones importantes.
+            Además, cuidar nuestra salud mental también puede tener un impacto positivo en nuestra salud física. El
+            estrés y la ansiedad pueden afectar negativamente nuestro cuerpo, aumentando el riesgo de enfermedades como
+            enfermedades cardíacas y diabetes. Al cuidar nuestra salud mental, podemos reducir estos riesgos y mejorar
+            nuestra salud en general.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="container-fluid bg-pink-100">
+          <h3>Salud fisica</h3>
+          <p>Ejercitarse regularmente tiene muchos beneficios para nuestra salud física y mental. En primer lugar, el
+            ejercicio puede ayudar a mejorar nuestra salud cardiovascular, reduciendo el riesgo de enfermedades
+            cardíacas y derrames cerebrales. También puede ayudar a controlar nuestro peso y prevenir la obesidad.
+            El ejercicio también puede tener beneficios sociales. Hacer ejercicio en grupo o con amigos puede ser una
+            excelente manera de socializar y fortalecer nuestras relaciones. También puede ser una forma divertida de
+            conocer gente nueva y hacer nuevos amigos.</p>
+        </div>
+      </div>
+    </div>
+
+
+    <h2 id="empoderamiento">Empoderamiento</h2>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="caja" id="contenido1">
+            <img id="que" alt="que" src="imagen/que.jpg" />
+            <h3>Que es</h3>
+            <div id="parrafo1">
+              <p>El empoderamiento es un proceso mediante el cual las personas adquieren control sobre sus propias
+                decisiones y acciones, y se movilizan para lograr cambios positivos en su vida tanto pública como
+                privada.</p>
+            </div>
+            <div class="button-container">
+              <button id="boton1" onclick="ocultarContenido('parrafo1', 'boton1')">Ver Más</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="caja" id="contenido2">
+            <img id="objetivo2" alt="objetivo" src="imagen/objetivo.jpg" />
+            <h3>Objetivo</h3>
+            <div id="parrafo2">
+              <p>El empoderamiento femenino tiene como objetivo construir economías fuertes, establecer sociedades más
+                justas, alcanzar los objetivos de desarrollo, sostenibilidad y derechos humanos y mejorar la calidad de
+                vida de las familias.</p>
+            </div>
+            <div class="button-container">
+              <button id="boton2" onclick="ocultarContenido('parrafo2', 'boton2')">Ver Más</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="caja" id="contenido3">
+            <img id="comolograrlo" alt="comolograrlo" src="imagen/comolograrlo.jpg" />
+            <h3>Como lograrlo</h3>
+            <div id="parrafo3">
+              <p>Algunas formas de lograr el empoderamiento pueden incluir:
+                Desarrollar una autoestima adecuada y una visión positiva de uno mismo.
+                Reflexionar sobre tus capacidades y cómo puedes utilizarlas para lograr tus objetivos.
+                Tomar responsabilidad por tus propias acciones y decisiones.</p>
+            </div>
+            <div class="button-container">
+              <button id="boton3" onclick="ocultarContenido('parrafo3', 'boton3')">Ver Más</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+    <div class="video">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/Hj3fjseBT9I" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    </div>
+
+
+    <footer>GRACIAS. Pagina de practica con fines educativos</footer>
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+  </body>
+
+</html>
