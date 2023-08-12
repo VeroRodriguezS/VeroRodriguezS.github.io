@@ -28,12 +28,11 @@ header ul li {
   margin: 0 10px;
 }
 
-
 main {
   background-color: #ff5aa4;
   color: chartreuse;
   text-align: center;
-  padding: 20px; 
+  padding: 20px;
 }
 
 h1 {
@@ -50,12 +49,12 @@ p {
 #texto1 {
   color: rgb(238, 12, 12);
   background-color: #ffc0dc;
-  padding: 10px; 
+  padding: 10px;
 }
 
 .textoClase {
   color: blue;
-  font-weight: 200; 
+  font-weight: 200;
 }
 
 h3 {
@@ -68,7 +67,7 @@ h2 {
   text-align: center;
   font-family: "Abril Fatface", cursive;
   font-size: xx-large;
-  margin: 20px 0; 
+  margin: 20px 0;
 }
 
 .contenedor {
@@ -77,12 +76,12 @@ h2 {
   width: 100%;
   margin: 10px 0;
   background-color: #ffc0dc;
-  justify-content: space-between; 
-  padding: 20px; 
+  justify-content: space-between;
+  padding: 20px;
 }
 
 .caja {
-  flex: 1; 
+  flex: 1;
   display: flex;
   padding: 10px;
   flex-direction: column;
@@ -106,7 +105,7 @@ h2 {
   display: flex;
   justify-content: center;
   width: 100%;
-  margin: 20px 0; 
+  margin: 20px 0;
 }
 
 footer {
@@ -115,7 +114,7 @@ footer {
   font-size: 12px;
   padding: 10px 0;
   text-align: center;
-} 
+}
 .button-container button {
   background-color: transparent;
   border: none;
@@ -124,5 +123,34 @@ footer {
   font-family: inherit;
   color: inherit;
   cursor: pointer;
+  color: #ff1b82;
+}
+
+/*paginas secundarias*/
+.numeros-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.numeros {
+  flex: 0 0 calc(33.33% - 20px);
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  text-align: center;
+}
+
+.boton-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-family: "Abril Fatface", cursive;
+  color: #ff1b82;
+}
+
+.boton-container a {
   color: #ff1b82;
 }
